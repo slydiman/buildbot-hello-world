@@ -7,7 +7,7 @@ def hello(who):
     text = "hello "
 
     try:
-        with open('hello.txt') as f:
+        with open('../hello.txt') as f:
             text = f.read()
     except FileNotFoundError:
         pass
