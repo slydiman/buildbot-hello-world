@@ -1,5 +1,6 @@
 """hello world module"""
 
+import sys
 
 def hello(who):
     """function that greats"""
@@ -11,5 +12,7 @@ def hello(who):
             text = f.read()
     except FileNotFoundError:
         pass
+
+    print(f"warning: {text + who}\n", file=sys.stderr)
 
     return text + who
