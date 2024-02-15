@@ -13,6 +13,7 @@ def hello(who):
     except FileNotFoundError:
         pass
 
-    print(f"warning: {text + who}\n", file=sys.stderr)
+    print(f"/path/file.ext:123: warning: {text + who}\n", file=sys.stdout)
+    print(f"/path/file.ext:321: warning: {text + who}\n", file=sys.stderr)
 
     return text + who
