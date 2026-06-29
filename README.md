@@ -1,4 +1,4 @@
 # hello-world
 hello world project for buildbot tutorials
 
-Update 39 (#3)
+Update 40 (#3)
